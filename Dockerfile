@@ -26,7 +26,7 @@ RUN apt-get install -y nginx
 ADD page.html /usr/share/nginx/html/
 
 # Expose ports 80 and 443 for HTTP and HTTPS
-EXPOSE 80 443
+EXPOSE 80 443 8000
 
 # Set the default command for this image 
 # (with extra configuration option to turn off nginx's daemon mode)
